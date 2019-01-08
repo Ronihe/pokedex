@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot for adopted dogs 1`] = `
+<ul>
+  <span>
+    <li>
+      <Pokecard
+        image="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png"
+        name="Charmander"
+        type="fire"
+      />
+    </li>
+    <li>
+      <Pokecard
+        image="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png"
+        name="Squirtle"
+        type="water"
+      />
+    </li>
+    <li>
+      <Pokecard
+        image="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png"
+        name="Metapod"
+        type="bug"
+      />
+    </li>
+    <li>
+      <Pokecard
+        image="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png"
+        name="Butterfree"
+        type="flying"
+      />
+    </li>
+    <li>
+      <Pokecard
+        image="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
+        name="Pikachu"
+        type="electric"
+      />
+    </li>
+    <li>
+      <Pokecard
+        image="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png"
+        name="Jigglypuff"
+        type="normal"
+      />
+    </li>
+    <li>
+      <Pokecard
+        image="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png"
+        name="Gengar"
+        type="poison"
+      />
+    </li>
+    <li>
+      <Pokecard
+        image="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png"
+        name="Eevee"
+        type="normal"
+      />
+    </li>
+  </span>
+</ul>
+`;
