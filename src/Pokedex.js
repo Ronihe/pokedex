@@ -14,21 +14,19 @@ class Pokedex extends React.Component {
       { id: 133, name: 'Eevee', type: 'normal', base_experience: 65 }
     ];
     return (
-      <ul>
-        <span>
-          {pokeList.map(el => (
-            <li>
-              <Pokecard
-                image={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${
-                  el.id
-                }.png`}
-                type={el.type}
-                name={el.name}
-              />
-            </li>
-          ))}
-        </span>
-      </ul>
+      <div className="container">
+        {pokeList.map(el => (
+          <span key={el.id}>
+            <Pokecard
+              image={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${
+                el.id
+              }.png`}
+              type={el.type}
+              name={el.name}
+            />
+          </span>
+        ))}
+      </div>
     );
   }
 }
